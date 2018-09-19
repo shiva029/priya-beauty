@@ -1,0 +1,26 @@
+{
+  "name": "sarviapp1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-session": "^1.15.5",
+    "express-validator": "^4.2.0",
+    "jade": "~1.11.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.11.12",
+    "morgan": "~1.8.1",
+    "nodemailer": "^4.1.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.0",
+    "request": "^2.82.0",
+    "serve-favicon": "~2.4.2"
+  }
+}
